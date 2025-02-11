@@ -12,7 +12,7 @@ function App() {
             .then(json=>setProducts(json))
             .finally(()=> setLoading(false)) 
   },[])
-
+// ret
   return (
     <div className="allCards">
     {loading && <div>loading..</div>}
